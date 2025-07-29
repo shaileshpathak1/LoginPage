@@ -1,15 +1,30 @@
 import { useState } from 'react'
 import './App.css'
+import Signup from './signup/signup'
+import Login from './login/login'
+import { RouterProvider,createBrowserRouter } from 'react-router-dom'
 
 function App() {
-  const [count, setCount] = useState(0)
+  
+const router=createBrowserRouter([
+
+  {
+    path:"/",
+    element:<Login />,
+  },
+  {
+    path:"/signup",
+    element:<Signup/>
+  }
+])
 
   return (
     <>
       
-      <p className="read-the-docs">
-     SHAILESH PATHAK
-      </p>
+      
+      <RouterProvider router={router}  />
+      <p className="read-the-docs">  </p>
+    
     </>
   )
 }

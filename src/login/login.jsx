@@ -1,19 +1,13 @@
 import { React } from 'react'
-import './signup.css'
+import './login.css'
 import { Link } from 'react-router'
 
-const Signup=()=>{
+const Login=()=>{
     return(
         <div className="AddUser">
-            <h3>Signup</h3>
+            <h3>Login</h3>
             <form className="formUser">
                 <div className="Pageform">
-                 <label>Name</label>
-                 <input
-                 type="text"
-                 id="name"
-                 placeholder="Enter name"
-                 />
                  <label>Email</label>
                  <input
                  type="email"
@@ -28,19 +22,18 @@ const Signup=()=>{
                  />
                  
 
-                 <button type="submit" className="buttton">Signup</button>
+                 <button type="submit" className="buttton">Login</button>
 
                 </div>
             
 
             </form>
-            <div className="login">
-            <label>I have already Account !</label>
-   <Link to='/'>Login</Link>
-   </div>
+
+            <div className="login"><label >Create Account here</label>
+            <Link to="/signup">Signup</Link></div>
             </div>
     )
 }
-export default Signup;
+export default Login;
 
 

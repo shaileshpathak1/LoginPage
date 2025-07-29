@@ -1,0 +1,13 @@
+body{
+    background-color: white;
+}
+.AddUser{
+    margin: 25px auto;
+    width:25%;
+    padding: 10px;
+    border-radius: 10px;
+}
+.AddUser.formUser.Pageform{
+    display: flex;
+    flex-direction: column;
+}

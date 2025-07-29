@@ -1,0 +1,46 @@
+body{
+    background-color: white;
+}
+.AddUser{
+    margin: 50px auto;
+    width:25%;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+   
+}
+.formUser .Pageform{
+    display: flex;
+    flex-direction: column;
+  
+}
+.formUser .Pageform label{ 
+    margin-top:10px;
+    padding: 5px;
+}
+.formUser .Pageform input{ 
+    margin-top:10px;
+    padding: 5px;
+  
+}
+.formUser .Pageform .buttton{
+    background-color: blue;
+    margin: 10px;
+    padding: 5px;
+    border-radius: 10px;
+
+    
+}
+.AddUser h3{ 
+    text-align: center;
+    
+  
+}
+.login{
+margin:10px;
+text-align: center;
+}
+.login Link{
+    margin:10px;
+   
+    }
